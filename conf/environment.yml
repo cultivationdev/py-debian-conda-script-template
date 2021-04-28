@@ -1,0 +1,9 @@
+name: py-debian-conda-script
+channels:
+- defaults
+- conda-forge
+dependencies:
+- python=3.8
+- pip=21.1
+- pip:
+  - pytest==6.2.2
