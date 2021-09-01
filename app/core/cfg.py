@@ -5,6 +5,7 @@ from dataclasses import dataclass
 
 __author__ = 'kclark'
 
+
 @dataclass()
 class Configuration:
     app_env: str
@@ -27,7 +28,7 @@ def _initialize_logging():
 cfg = Configuration(
     app_env=os.getenv('APP_ENV', 'dev'),
     app_start_time=dt.datetime.utcnow(),
-    log_level=logging.getLevelName(os.getenv('LOG_LEVEL', 'DEBUG').upper())
+    log_level=logging.getLevelName(os.getenv('LOG_LEVEL', 'INFO').upper())  # Ignores debug logs
 )
 
 _initialize_logging()

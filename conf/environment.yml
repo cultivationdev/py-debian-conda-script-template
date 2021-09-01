@@ -7,3 +7,4 @@ dependencies:
 - pip=21.1
 - pip:
   - pytest==6.2.2
+  - requests==2.26.0
