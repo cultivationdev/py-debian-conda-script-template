@@ -1,6 +1,6 @@
-# Python Level Up: Dockerize Python
+# Python Debian Conda Template
 
-#### Learn more at [cultivation.dev](https://cultivation.dev)
+- Authored by Kyle Clark. Visit [devcultivation.com](https://devcultivation.com) for more content.
 
 ---
 
